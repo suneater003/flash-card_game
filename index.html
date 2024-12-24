@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display:ital,wght@0,500;1,500&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Flip-card game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="clo.css">
+</head>
+<body>
+    <header>
+         
+          <div>
+            <h1 class="main">FLIP-CARD GAME</h1>
+          </div>
+                <header>
+            <div class="container">
+              <div id="time">
+                <div class="circle" style="--color: #ff2972">
+                  <div class="dots h_dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                  </svg>
+                  <div id="hours">
+                    <p id="hrs">00</p>
+                    <p class="time-text">Hours</p>
+                  </div>
+                </div>
+                <div class="circle" style="--color: #fee800">
+                  <div class="dots m_dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                  </svg>
+                  <div id="minutes">
+                    <p id="mins">00</p>
+                    <p class="time-text">Minutes</p>
+                  </div>
+                </div>
+                <div class="circle" style="--color: #04fc43">
+                  <div class="dots s_dot"></div>
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                  </svg>
+                  <div id="seconds">
+                    <p id="secs">00</p>
+                    <p class="time-text">Seconds</p>
+                  </div>
+                </div>
+                <div class="ap">
+                  <div id="ampm">AM</div>
+                </div>
+              </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="dropdown">
+                <div class="dropbtn">☰ Menu</div>
+                <div class="dropdown-content">
+                    <a href="about.html">ABOUT</a>
+                </div>
+            </div>
+        </nav>
+            <script type="text/javascript" src="clo.js"></script>
+    </header>
+
+    <h3 class="h33">RULE TO PLAY THIS GAME CHOOSE YOUR FAVOURITE CARD ACCORDING TO THE THEMES AND IT WILL SAY SOMETHING ACCORDING TO IT.</h3>
+    <main>
+        <h1 class="h">1) Seasons.....</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/100+ Spring Phone Wallpapers With Seasonal Vibes.jpeg" alt="Spring">
+                    </div>
+                    <div class="card-back">
+                        <h2 class="sumi">For you, spring is an inner landscape as much as it is a time of year. It's a feeling you hold within, a sense of hope and anticipation that unfurls with every blossom. It's a state of mind, a way of seeing the world anew. It's a time for open windows and the rush of fresh air, for the intoxicating perfume of rain-washed earth rising up to meet you.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/28 Snowy Scenes That Will Make You Want to Take a Winter Vacation ___.jpeg" alt="Winter">
+                    </div>
+                    <div class="card-back">
+                        <h2 class="sumi">For you, winter is about those stark contrasts: the haven of warmth indoors against the biting cold outside, the canvas of stark white snow painted against the deep blue sky. It's a time marked by cozy gatherings, the sharing of stories that weave through the long evenings, and the deep comfort of feeling connected to the natural rhythm of the changing seasons.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/30e9bab3-47d8-4a4d-97f9-03468dd1db6f.jpeg" alt="Summer">
+                    </div>
+                    <div class="card-back">
+                        <h2 class="sumi">You feel so comfortable during those long, sun-soaked days. It's like the world hits the pause button, giving you time for everything and nothing, all at once. Summer is a breath of fresh air – a chance to recharge and really appreciate the simple things.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/My Favourite Instagrammed Photos Of London_ See why it is not just Big Ben that has made London the most photogenic city in the world_.jpeg" alt="Autumn">
+                    </div>
+                    <div class="card-back">
+                        <h2 class="sumi1">For you, autumn is a mirror to your soul, a time for reflection. The crisp air and the turning leaves whisper tales of nostalgia and intros pection. You become a wanderer in forests painted with fire, gathering fallen leaves like precious keepsakes, your thoughts drawn to the quiet spaces within. Autumn is your season of contemplation, a time to embrace the beauty of impermanence and find solace in the year's graceful descent.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main>
+        <h1 class="h">2) YOUR PERSONALITY TRAIT??</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Тишина.jpeg" alt="Introvert">
+                    </div>
+                    <div class="card-back1">
+                        <h2>"You're not necessarily shy, but you prefer smaller groups or one-on-one conversations. Large gatherings can feel overwhelming, and you might find yourself needing to step away to find some quiet time."</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images\🫶.jpeg" alt="Ambivert">
+                    </div>
+                    <div class="card-back3">
+                        <h2>I am the quiet storm and the vibrant sun; I thrive in the company of others yet find peace in solitude. As an ambivert, I dance between worlds, embracing the beauty of both connection and introspection.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/download.jpeg" alt="Extrovert">
+                    </div>
+                    <div class="card-back2">
+                        <h2>You likely find that being around people energizes you. You feel most alive when you're surrounded by others, whether it's at a party, a networking event, or just hanging out with friends. You enjoy initiating conversations and keeping the energy up. You tend to think out loud, processing your thoughts and feelings through verbal communication.</h2>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+  
+    </main>
+    <main>
+        <h1 class="h">3) ZODIAC SIGN....</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Virgo.jpeg" alt="Virgo">
+                    </div>
+                    <div class="virgo">
+                        <h2>Virgos are practical, analytical, and helpful individuals with a strong work ethic and a keen eye for detail. They are loyal friends and dedicated colleagues. However, they can also be overly critical, prone to worry, and perfectionistic.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Scorpion ♏️.jpeg" alt="Scorpio">
+                    </div>
+                    <div class="scorpio">
+                        <h2>Scorpios are complex and powerful individuals characterized by their determination, passion, and intuition. They are loyal friends and formidable adversaries. However, they can also be secretive, jealous, and controlling.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Cancer.jpeg" alt="Cancer">
+                    </div>
+                    <div class="cancer">
+                        <h2>Cancers are deeply emotional, nurturing, and loyal individuals who value home and family. They are intuitive and imaginative, but can also be moody, sensitive, and sometimes clingy.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Pisces.jpeg" alt="Pisces">
+                    </div>
+                    <div class="pisces">
+                        <h2>Pisces are compassionate, intuitive, and creative individuals with a deep connection to their emotions and the spiritual realm. They are gentle and adaptable, but can also be prone to escapism, sensitivity, and indecisiveness.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/download (3).jpeg" alt="Aquarius">
+                    </div>
+                    <div class="aquarius">
+                        <h2>Aquarians are independent, intellectual, and progressive individuals with a strong desire for freedom and social change. They are open-minded and creative, but can also be detached, stubborn, and unpredictable.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        
+                        <img src="images/Zodiac - Libra.jpeg" alt="Libra">
+                    </div>
+                    <div class="libra">
+                        <h2>Libras are charming, diplomatic, and balanced individuals who strive for harmony and fairness in all aspects of their lives. They are social and gracious, but can also be indecisive, people-pleasing, and sometimes superficial.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Taurus.jpeg" alt="Taurus">
+                    </div>
+                    <div class="taurus">
+                        <h2>Taurus individuals are reliable, patient, and determined with a strong appreciation for beauty, comfort, and the material world. They are loyal and sensual, but can also be stubborn, possessive, and sometimes overly indulgent.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Capricorn.jpeg" alt="Capricorn">
+                    </div>
+                    <div class="capricorn">
+                        <h2>Capricorns are ambitious, disciplined, and responsible individuals with a strong drive for success. They are practical, patient, and wise, but can also be pessimistic, stubborn, and sometimes overly focused on work.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Sagittarius.jpeg" alt="Sagittarius">
+                    </div>
+                    <div class="sagittarius">
+                        <h2>Sagittarians are optimistic, adventurous, and honest individuals who value their freedom and independence. They are philosophical and generous, but can also be blunt, restless, and sometimes inconsistent.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Leo.jpeg" alt="Leo">
+                    </div>
+                    <div class="leo">
+                        <h2>Leos are confident, generous, and passionate individuals with a natural ability to lead and inspire. They are warm and friendly, but can also be egotistical, dramatic, and sometimes stubborn.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Zodiac - Gemini.jpeg" alt="Gemini">
+                    </div>
+                    <div class="gemini">
+                        <h2>Geminis are communicative, adaptable, and intellectual individuals with a quick wit and a versatile nature. They are sociable and enjoy being around people, but can also be indecisive, restless, and sometimes superficial.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Theme 3.jpeg" alt="Aries">
+                    </div>
+                    <div class="aries">
+                        <h2>Aries are courageous, energetic, and independent individuals who are driven by their passions and desires. They are natural leaders and are often the first to embrace new challenges. However, they can also be impulsive, impatient, and sometimes aggressive.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main>
+        <h1 class="h">4) AESTHETICS.....</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Pastel Seascape Sea Waves Pink Sky Art.jpeg" alt="Dreamy">
+                    </div>
+                    <div class="dream">
+                        <h2>You're not about that basic life. You're about creating your own little world of beauty and tranquility. It's giving escapism, but in a good way. It's a whole mood. 💯</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/download (4).jpeg" alt="Dark">
+                    </div>
+                    <div class="dark">
+ 
+                        <h2>You're not afraid to embrace the shadows and express your individuality. You're drawn to the mysterious and the complex, and you appreciate the beauty in darkness. It's a whole vibe. 🖤‍🔥💯</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/coffee and currently reading.jpeg" alt="Vintage">
+                    </div>
+                    <div class="vintage">
+                        <h2>You appreciate the beauty and charm of the past and incorporate it into your present. You're not just living in the past; you're using it to create something new and unique. It's a whole vibe.📖</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Phone Wallpaper.jpeg" alt="Mysterious">
+                    </div>
+                    <div class="mystery">
+                        <h2>You're not afraid to explore the shadows and embrace the unknown. You appreciate the power of mystery and enjoy the thrill of uncovering hidden truths. You're not about that basic life; you’re about the enigma. It's a whole mood.✍️🐺</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main>
+        <h1 class="h">5) COLOUR.....</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/download (5).jpeg" alt="Black">
+                    </div>
+                    <div class="black">
+                        <h2>You might be someone who values sophistication and independence, has a strong sense of self, and enjoys exploring complex ideas. You may be private and introspective, preferring your own company at times. You likely have a strong aesthetic sense and appreciate the beauty in simplicity and elegance.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Taste Test_ Marshmallows.jpeg" alt="White">
+                    </div>
+                    <div class="white">
+                        <h2>You might be someone who seeks out calm and ordered environments and appreciates clean lines and minimalist aesthetics. You may also be at a point in your life where you're seeking a fresh start or a sense of clarity.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Purple Wallpapers For iPhone Background _ Dark light Purple HD Images For iPhone - FancyOdds.jpeg" alt="Purple">
+                    </div>
+                    <div class="violet">
+                        <h2>You might be a creative and intuitive individual with a strong spiritual connection. You likely value your independence and have a deep appreciation for beauty and elegance. You may also be a compassionate and empathetic person, drawn to helping others and making a positive impact on the world.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/download (6).jpeg" alt="Blue">
+                    </div>
+                    <div class="blue">
+                        <h2>You probably have a positive outlook on life and value trust and honesty in your relationships. You may also appreciate simplicity and a sense of spaciousness in your environment.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Stop Kitchen Fires Before They’ve Begun.jpeg" alt="Orange">
+                    </div>
+                    <div class="orange">
+                        <h2>You bring the energy, the creativity, and the good vibes. You're not afraid to be yourself and express your unique personality. You're a true original. It's a whole mood.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Roses __ Wallpaper.jpeg" alt="Red">
+                    </div>
+                    <div class="red">
+                        <h2>A dynamic, passionate , and confident individual. You're likely driven, expressive, and not afraid to take risks. However, it's also important to be mindful of potential impulsiveness or the need to find healthy outlets for your energy.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images\Gallery of Architecture and Nature Come Together in Secluded Earth Chapel  - 3.jpeg" alt="Grey">
+                    </div>
+                    <div class="grey">
+                        <h2>You probably value balance, practicality, and composure. You're likely reliable, independent, and appreciate understated elegance. You may also be somewhat reserved and prefer to keep your emotions private.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/Emerald green satin _ Dunkelgrüne ästhetik, Slytherin ästhetisch, Grüne ästhetik.jpeg" alt="Green">
+                    </div>
+                    <div class="green">
+                        <h2>You likely value balance, growth, and tranquility. You are probably a nurturing, compassionate, and reliable person who prioritizes health and well-being.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <p>Info:</p>
+        <p>Developed by Aditya Raj</p>
+        <div class="link1">
+            <a href="https://github.com/suneater003" target="_blank" rel="noopener noreferrer">
+                <img src="png/github.png" alt="GitHub" width="32px">
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-raj-2686772b8/" target="_blank" rel="noopener noreferrer">
+                <img src="png/linkedin.png" alt="LinkedIn" width="32px">
+            </a>
+            <a href="mailto:aditya1raj003@gmail.com" alt="Gmail" target="_blank">
+                <img src="png/pngwing.com (9).png" alt="Gmail" width="38px">
+            </a>
+            <a href="https://www.instagram.com/aditya_raj645/" alt="instagram" target="_blank">
+                <img src="png\instagram.png" alt="instagram" width="32px">
+            </a>
+        </div>
+    </div>
+</footer>
+</html>
